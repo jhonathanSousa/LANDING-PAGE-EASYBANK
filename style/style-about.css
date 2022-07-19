@@ -1,0 +1,77 @@
+/* FORMATAÇÃO ABOUT */
+.about .container{
+  padding: 6rem 0;
+}
+
+.about .container h2{
+  font-size: 4rem;
+}
+
+.about .container p{
+  color: var(--grayish-blue);
+  font-size: 1.5rem;
+  line-height: 3rem;
+  margin: 2rem 0 5rem;
+}
+
+.about .container ul li{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about .container ul li img{
+  margin-bottom: 3rem;
+}
+
+.about .container ul li h3{
+  font-size: 2.3rem;
+}
+
+.about .container h2, .about .container ul li h3{
+  color: var(--dark-blue-primary);
+  font-weight: 400;
+}
+
+.about .container h2, .about .container p, .about .container ul li h3{
+  text-align: center;
+}
+
+@media (min-width: 768px){
+/* FORMATAÇÃO ABOUT */
+.about .container ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about .container ul li{
+  flex-basis: 45%;
+  margin-bottom: 5rem;
+}
+}
+
+@media (min-width: 1024px){
+/* FORMATAÇÃO ABOUT */
+.about .container p{
+  max-width: 65rem;
+}
+
+.about .container ul li{
+  align-items: flex-start;
+}
+
+.about .container h2, .about .container p, .about .container ul li h3{
+  text-align: left;
+}
+}
+
+@media (min-width: 1300px){
+/* FORMATAÇÃO ABOUT */
+.about .container ul li{
+  flex-basis: 23%;
+  margin-bottom: 0;
+}
+}
