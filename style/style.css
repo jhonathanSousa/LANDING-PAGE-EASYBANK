@@ -1,0 +1,57 @@
+/* CSS-RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* VARIÁVEIS-CSS */
+:root{
+  --dark-blue-primary: hsl(233, 26%, 24%);
+  --lime-green-primary: hsl(136, 65%, 51%);
+  --bright-cyan-primary: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --white: hsl(0, 0%, 100%);
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--light-grayish-blue);
+  font-family: 'Public Sans', sans-serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn-default{
+  display: none;
+  border-radius: 2rem;
+  border: none;
+  background-image: linear-gradient(to right, var(--lime-green-primary) , var(--bright-cyan-primary));
+  cursor: pointer;
+  width: 15rem;
+  height: 4rem;
+  transition: 0.3s;
+}
+
+.btn-default:hover{
+ opacity: 0.7;
+}
+
+.btn-default a{
+  color: var(--white);
+  font-weight: bold;
+}
+
+@media (min-width: 994px){
+
+.btn-default{
+  display: block;
+}
+
+}

@@ -1,0 +1,122 @@
+/* FORMATAÇÃO HEADER */
+.header{
+	background-color: var(--white);
+}
+
+.header .container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 8rem;
+}
+
+/* FORMATAÇÃO MENU */
+.menu__lista{
+	display: flex;
+	list-style: none;
+	gap: 1.5rem;
+}
+
+.menu__lista li a {
+	color: var(--grayish-blue);
+	display: block;
+	padding: 3rem .5rem;
+	font-size: 1.5rem;
+	transition: color 0.3s;
+	border-bottom: 3px solid transparent;
+}
+
+.menu__lista li a:hover{
+	color: var(--dark-blue-primary);
+	border-bottom: 3px solid transparent;
+  border-image: linear-gradient(to right, var(--lime-green-primary) , var(--bright-cyan-primary)) 1;
+}
+
+#btn-mobile{
+	display: none;
+}
+
+@media (max-width: 600px){	
+/* FORMATAÇÃO MENU */
+.menu__lista{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: 0;
+	transition: .6s;
+	background-color: var(--white);
+	border-radius: 1rem;
+	z-index: 1000;
+	visibility: hidden;
+	overflow-y: hidden;
+	margin: 0 auto;
+}
+
+.menu.active .menu__lista{
+	height: calc(65vh - 100px);
+	visibility: visible;
+	overflow-y: auto;
+}
+
+.menu__lista li{
+	margin: 1rem 0;
+}
+
+.menu__lista li a{
+	color: var(--dark-blue-primary);
+	padding: 0;
+	text-align: center;
+	border-bottom: none;
+}
+
+.menu__lista li a:hover{
+	color: var(--lime-green-primary);
+	border-bottom: none;
+}
+
+#btn-mobile{
+	display: flex;
+	gap: 0.5rem;	
+	font-size: 1rem;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+#hamburger{
+	border-top: 2px solid;
+	width: 3.5rem;
+}
+
+#hamburger::after,#hamburger::before{
+	content: '';
+	display: block;
+	width: 3.5rem;
+	height: 2px;
+	background: currentColor;
+	margin-top: 6px;
+	transition: 0.4s;
+	position: relative;
+}
+
+.menu.active #hamburger{
+	border-top-color: transparent;
+}
+
+.menu.active #hamburger::after{
+	transform: rotate(135deg);
+	top: -7px;
+}
+
+.menu.active #hamburger::before{
+	transform: rotate(-135deg);
+
+}
+
+}
