@@ -1,0 +1,123 @@
+/* FORMATAÇÃO FOOTER */
+.rodape{
+  background-color: var(--dark-blue-primary);
+  color: var(--white);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+/* FORMATAÇÃO COL-ONE */
+.rodape .col-one div:first-child ul{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2.5rem;
+}
+
+.rodape .col-one div:last-child .menu-footer ul li{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.rodape .col-one div:last-child .menu-footer ul li a{
+  color: var(--white);
+  transition: color 0.3s;
+}
+
+.rodape .col-one div:last-child .menu-footer ul li a:hover{
+  color: var(--lime-green-primary);
+}
+
+/* FORMATAÇÃO COL-TWO */
+.rodape .col-two{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+.rodape .col-two button{
+  display: block;
+  margin: 2rem auto;
+}
+
+.rodape .col-two p{
+  color: var(--grayish-blue);
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px){
+/* FORMATAÇÃO FOOTER */
+.rodape{
+  text-align: initial;
+}
+
+.rodape .col-one{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.rodape .col-one div:first-child ul{
+  justify-content: flex-start;
+  margin: 2.5rem 0;
+}
+
+.rodape .col-one div:last-child .menu-footer{
+  display: flex;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.rodape .col-two button{
+  margin: 2rem 0;
+}
+
+}
+
+@media (min-width: 994px){
+/* FORMATAÇÃO FOOTER */
+
+.rodape .container{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+/* FORMATAÇÃO COL-ONE */
+.rodape .col-one{
+  width: 60%;
+}
+
+.rodape .col-one div:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rodape .col-one div:first-child ul{
+  margin-bottom: 0;
+}
+
+.rodape .col-one div:last-child .menu-footer{
+  gap: 8rem;
+}
+
+.rodape .col-one div:last-child .menu-footer ul li:last-child{
+  margin-bottom: 0;
+}
+
+/* FORMATAÇÃO COL-TWO */
+.rodape .col-two {
+  margin: 0;
+  align-items: flex-end;
+}
+}
+
+@media (min-width: 1300px){
+/* FORMATAÇÃO COL-ONE */
+.rodape .col-one{
+  width: 50%;
+}
+
+}
