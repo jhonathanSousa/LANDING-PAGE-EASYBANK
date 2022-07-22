@@ -1,1 +1,103 @@
 /* HERO-MAIN FORMATTING */
+.hero-main{
+  background-color: var( --very-light-gray);
+}
+
+/* FORMATTING HERO-MAIN-COL-ONE */
+.hero-main-col-one{
+  position: relative;
+  z-index: 99;
+  background: url(../images/bg-intro-mobile.svg) no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+}
+
+.hero-main-col-one div img{
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: -140px auto 0;
+}
+
+/* FORMATTING HERO-MAIN-COL-TWO */
+.hero-main-col-two{
+  padding: 5rem 0 12rem;
+  text-align: center;
+}
+
+.hero-main-col-two h2{
+  color: var(--dark-blue-primary);
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+.hero-main-col-two p{
+  color: var(--grayish-blue);
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+
+.hero-main-col-two button{
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 668px){
+/* FORMATTING HERO-MAIN-COL-ONE */
+.hero-main-col-one div img{
+  max-width: 62.5rem; 
+}
+
+/* FORMATTING HERO-MAIN-COL-TWO */
+.hero-main-col-two{
+  padding: 12rem 0;
+  text-align: center;
+}
+
+.hero-main-col-two h2{
+  font-size: 5rem;
+}
+
+}
+
+@media (min-width: 1200px){
+/* HERO-MAIN FORMATTING */
+.hero-main{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 75vh;
+}
+
+/* FORMATTING HERO-MAIN-COL-ONE */
+.hero-main-col-one{
+  width: 50%;
+  background-image: url(../images/bg-intro-desktop.svg) no-repeat;
+}
+
+.hero-main-col-one div img{
+  margin: 0px 0 0 17.5rem;
+  max-width: 60rem;
+}
+
+/* FORMATTING HERO-MAIN-COL-TWO */
+.hero-main-col-two{
+  text-align: left;
+  padding: 0;
+  width: 45%;
+}
+
+.hero-main-col-two h2{
+  max-width: 40rem;
+}
+
+.hero-main-col-two p{
+  max-width: 38rem;
+}
+
+.hero-main-col-two button{
+  margin: 0;
+}
+
+}
