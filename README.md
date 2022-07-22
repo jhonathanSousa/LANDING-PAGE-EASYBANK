@@ -1,4 +1,4 @@
-![alt text](capa.png)
+![alt text](capa.jpg)
 
 # Landing Page Easybank
 
