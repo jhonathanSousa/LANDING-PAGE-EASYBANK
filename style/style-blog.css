@@ -1,4 +1,4 @@
-/* FORMATAÇÃO BLOG */
+/* BLOG FORMATTING */
 .blog{
   background-color: var(--very-light-gray);
 }
@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 668px){
-/* FORMATAÇÃO BLOG */
+/* BLOG FORMATTING */
 .blog .container ul{
   display: flex;
   flex-wrap: wrap;
@@ -68,14 +68,14 @@
 }
 
 @media (min-width: 940px){
-  /* FORMATAÇÃO BLOG */
-  .blog .container ul li img{
-    min-height: 350px;
-  }
+/* BLOG FORMATTING */
+.blog .container ul li img{
+  min-height: 350px;
+}
 }
 
 @media (min-width: 1300px){
-/* FORMATAÇÃO ABOUT */
+/* BLOG FORMATTING */
 .blog .container ul li{
   flex-basis: 23%;
   margin-bottom: 0;

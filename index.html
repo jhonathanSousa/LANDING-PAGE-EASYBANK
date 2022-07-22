@@ -14,9 +14,11 @@
   <link rel="stylesheet" href="style/style-about.css">
   <!-- STYLE-BLOG -->
   <link rel="stylesheet" href="style/style-blog.css">
-  <!-- STYLE-RODAPE -->
+  <!-- STYLE-FOOTER -->
   <link rel="stylesheet" href="style/style-footer.css">
-  <!-- FONTE-DO-PROJETO -->
+  <!-- STYLE-HERO-MAIN -->
+  <link rel="stylesheet" href="style/style-hero-main.css">
+  <!--PROJECT-SOURCES -->
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -27,7 +29,7 @@
       <a class="logo" href="index.html"><img src="images/logo.svg" alt="Logo da empresa easybank"></a>
       <nav id="menu" class="menu">
         <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu__lista" aria-expanded="false" ><span id="hamburger"></span></button>
-        <ul id="menu__lista" class="menu__lista" role="menu__lista">
+        <ul id="menu__list" class="menu__list" role="menu__list">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -40,9 +42,24 @@
 	</header>
   <!-- HEADER -->
 
+  <!-- HERO-MAIN -->
+  <div class="hero-main">
+    <div class="hero-main-col-one">
+      <img src="images/image-mockups.png" alt="">
+    </div>
+
+    <div class="hero-main-col-one">
+      <h2>Next generation digital banking</h2>
+      <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
+      for spending, saving, budgeting, investing, and much more.</p>
+      <button class="btn-default"><a href="#">Request Invite</a></button>
+    </div>
+  </div>
+  <!-- HERO-MAIN -->
+
   <main>
     <!-- ABOUT -->
-    <section class="about" id="about">
+    <!-- <section class="about" id="about">
       <div class="container">
         <h2>Why choose Easybank?</h2>
         <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
@@ -78,11 +95,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <!-- ABOUT -->
 
     <!-- BLOG -->
-    <section class="blog" id="blog">
+    <!-- <section class="blog" id="blog">
       <div class="container">
         <h2>Latest Articles</h2>
         <ul>
@@ -127,12 +144,12 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
     <!-- BLOG -->
   </main>
 
   <!-- FOOTER -->
-  <footer class="rodape">
+  <!-- <footer class="footer">
     <div class="container">
       <div class="col-one">
         <div>
@@ -168,7 +185,7 @@
         <p>@Easybank. All Rights Reserved</p>
       </div>
     </div>
-  </footer>
+  </footer> -->
   <!-- FOOTER -->
 
   <!-- SCRIPT-MENU -->

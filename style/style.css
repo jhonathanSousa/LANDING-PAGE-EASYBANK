@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-/* VARIÁVEIS-CSS */
+/* CSS-VARIABLES */
 :root{
   --dark-blue-primary: hsl(233, 26%, 24%);
   --lime-green-primary: hsl(136, 65%, 51%);
