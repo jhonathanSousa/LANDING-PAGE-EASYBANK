@@ -1,6 +1,8 @@
 /* HEADER FORMATTING */
 .header{
+	position: relative;
 	background-color: var(--white);
+	z-index: 99999;
 }
 
 .header .container{
