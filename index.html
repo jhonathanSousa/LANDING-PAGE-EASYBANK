@@ -24,11 +24,11 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header">
+  <header class="header" id="header">
     <div class="container">
-      <a class="logo" href="index.html"><img src="images/logo.svg" alt="Logo da empresa easybank"></a>
+      <a class="logo" href="index.html"><img src="images/logo.svg" alt="Logo easybank company"></a>
       <nav id="menu" class="menu">
-        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu__lista" aria-expanded="false" ><span id="hamburger"></span></button>
+        <button aria-label="Open menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu__list" aria-expanded="false" ><span id="hamburger"></span></button>
         <ul id="menu__list" class="menu__list" role="menu__list">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -43,7 +43,7 @@
   <!-- HEADER -->
 
   <!-- HERO-MAIN -->
-  <div class="hero-main">
+  <div class="hero-main" id="hero-main">
     
     <div class="hero-main-col-one">
       <div>
@@ -154,17 +154,21 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="col-one">
         <div>
-          <img src="images/logo-footer.svg" alt="Logo empresa easybank">
+          <img src="images/logo-footer.svg" alt="Logo easybank company">
           <ul>
-            <li><a href="#"><img src="images/icon-facebook.svg" alt=""></a></li>
-            <li><a href="#"><img src="images/icon-youtube.svg" alt=""></a></li>
-            <li><a href="#"><img src="images/icon-twitter.svg" alt=""></a></li>
-            <li><a href="#"><img src="images/icon-pinterest.svg" alt=""></a></li>
-            <li><a href="#"><img src="images/icon-instagram.svg" alt=""></a></li>
+            <li>
+              <a href="https://facebook.com" target="_blank"><img src="images/icon-facebook.svg"></a></li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank">
+                <img src="images/icon-youtube.svg"></a></li>
+            <li>
+              <a href="https://twitter.com/" target="_blank"><img src="images/icon-twitter.svg"></a></li>
+            <li><a href="https://br.pinterest.com/" target="_blank"><img src="images/icon-pinterest.svg"></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><img src="images/icon-instagram.svg"></a></li>
           </ul>
         </div>
 
@@ -195,5 +199,9 @@
 
   <!-- SCRIPT-MENU -->
   <script src="script/menu.js"></script>
+  <!-- SCRIPT SCROLL REAVEAL -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- SCRIPT-SCROLL -->
+  <script src="script/scroll.js"></script>
 </body>
 </html>
