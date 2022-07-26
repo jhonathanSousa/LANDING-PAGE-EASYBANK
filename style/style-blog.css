@@ -41,10 +41,19 @@
 }
 
 .blog .container ul li > div h3{
-  color: var(--dark-blue-primary);
   font-size: 1.8rem;
-  font-weight: 400;
   margin: 1.5rem 0;
+  font-weight: 400;
+}
+
+.blog .container ul li > div h3 a{
+  color: var(--dark-blue-primary);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.blog .container ul li > div h3 a:hover{
+  color: var(--lime-green-primary);
 }
 
 .blog .container ul li > div p{
