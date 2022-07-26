@@ -7,8 +7,8 @@
 .hero-main-col-one{
   position: relative;
   z-index: 99;
-  background: url(../images/bg-intro-mobile.svg) no-repeat;
-  background-clip: border-box;
+  background-image: url(../images/bg-intro-mobile.svg);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -64,6 +64,7 @@
 @media (min-width: 1200px){
 /* HERO-MAIN FORMATTING */
 .hero-main{
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -73,7 +74,7 @@
 /* FORMATTING HERO-MAIN-COL-ONE */
 .hero-main-col-one{
   width: 50%;
-  background-image: url(../images/bg-intro-desktop.svg) no-repeat;
+  background-image: url(../images/bg-intro-desktop.svg);
 }
 
 .hero-main-col-one div img{
