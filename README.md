@@ -1,14 +1,20 @@
 ![alt text](capa.jpg)
 
-# Landing Page Easybank
+# Landing page Easybank
 
-Em busca de praticar o que venho aprendendo sobre HTML5,CSS3 e JAVASCRIPT, encontrei o desafio de criação de uma landing page no site do frontend mentor, onde decide realizar o desafio , e colocar em pratica também o pixel perfect.
+My inspiration to build this project came from the Easybank Landing Page Challenge, on Frontend Mentor. My goal was to build this landing page from scratch, making it fully interactive and responsive.
 
-Link do projeto: https://project-landing-page-easybank.vercel.app/
+## 🚀 Technologies :
 
-## Tecnologias utilizadas:
+**Front-end:** HTML5, CSS3 and JAVASCRIPT;
 
-- HTML5;
-- CSS3;
-- JAVASCRIPT;
-- SCROLLREAVEAL;
+**Library:** SCROLLREAVEAL;
+
+## 💻 How to use :
+
+Project Link : https://project-landing-page-easybank.vercel.app/
+
+## 👨 Author :
+
+[@jhonathanSousa](https://www.linkedin.com/in/jhonathan-alves-sousa/)
+
